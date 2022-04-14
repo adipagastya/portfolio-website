@@ -14,13 +14,13 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Pasola: A Sumba Sporting Tradition</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+            {/* <a href="https://github.com" className='btn' target='_blank'>View</a> */}
+            <a href="https://drive.google.com/file/d/1ZV4QmY6JA3jdaJCV88bijRL5vVaJYRtL/view?usp=sharing" className='btn btn-primary' target='_blank'>Download</a>
           </div>
         </article>
-        <article className="portfolio__item">
+        {/* <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
@@ -39,7 +39,7 @@ function Portfolio() {
             <a href="https://github.com" className='btn' target='_blank'>Github</a>
             <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   )

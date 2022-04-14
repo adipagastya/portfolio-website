@@ -39,7 +39,7 @@ function Contact() {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>adipagastya</h5>
-            <a href="https://me.me/adipagastya" target="_blank">Send a message</a>
+            <a href="https://m.me/adipagastya" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
